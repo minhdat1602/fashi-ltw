@@ -1,0 +1,207 @@
+ .container.mt-3 .row .list-product {
+    width: 100%;
+    position: relative;
+    height: 450px;
+}
+.avatar-text h6 {
+    font-size: 20px;
+}
+
+.avatar-text input.f-13 {
+    width: 350px;
+}
+
+.customer-review-option.ml-5 img {
+    width: 200px;
+    height: 200px;
+}
+img#imagedetails {
+    width: 175px;
+    height: 175px;
+    margin-left:40px;
+}
+.navbar-right {
+    position: absolute;
+    right: 0;
+}
+li#oneStock .form-group {
+    width: 129px;
+    display: inline;
+}
+li#oneStock .form-group select {
+    width: 125px;
+    display: inline;
+}
+li#oneStock .form-group input {
+    width: 100px;
+    display: inline;
+}
+.form-group img {width: 250px;height: 250px;}
+.list-product img {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+}
+.list-product:hover .cover{
+	background: #f5f6fa1c;
+}
+.list-product .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d3d3d33b;
+    font-size: 50px;
+    transition: 0.5s;
+}
+
+.cover a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+.content-wrapper .scrollDiv {
+    height: 600px;
+    overflow-y: scroll;
+}
+ label#labelForSorting {
+    float: right;
+    margin: 0;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+label#labelForTotalItem {
+    float: right;
+    margin: 0;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+ .table select {
+    background: #212a39;
+    color: white;
+    border: navajowhite;
+}
+ .content-wrapper h3.ml-2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.product-show-option .sorting {float: right;height: 35px;}
+
+.product-show-option .p-show {
+    float: right;
+    margin-right: 20px;
+    height: 35px;
+    width: auto;
+}
+
+.product-show-option {
+    margin-bottom: 10px;
+    padding-left: 50%;
+}
+div#size input {
+    width: 20px;
+    height: 20px;
+}
+
+div#size span {
+    font-size: 20px;
+    margin-left: 10px;
+}
+/* ---------------------------------------------------------------------------------------- */
+
+.customer-review-option {
+    padding-top: 55px;
+}
+
+.customer-review-option h4 {
+    color: #292f3b;
+    font-weight: 700;
+    margin-bottom: 35px;
+}
+
+.customer-review-option .comment-option .co-item {
+}
+
+.customer-review-option .comment-option .co-item .avatar-pic {
+    float: left;
+    margin-right: 20px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-pic img {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text {
+    display: table;
+    margin-bottom: 35px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-rating {
+    line-height: 9px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-rating i {
+    font-size: 12px;
+    display: inline-block;
+    color: #FAC451;
+    margin-right: -3px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 {
+    color: #252525;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 span {
+    color: #b2b2b2;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 22px;
+    position: relative;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text h5 span:before {
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: "-";
+    font-size: 18px;
+    color: #b2b2b2;
+}
+
+.customer-review-option .comment-option .co-item .avatar-text .at-reply {
+    font-size: 20px;
+    color: #636363;
+}
+
+.customer-review-option .personal-rating {
+    margin-bottom: 50px;
+    padding-top: 10px;
+}
+
+.customer-review-option .personal-rating h6 {
+    color: #252525;
+}
+
+.customer-review-option .personal-rating .rating i {
+    font-size: 12px;
+    display: inline-block;
+    color: #FAC451;
+    margin-right: -3px;
+}
+
+
+/* ------------------------------------------------------------------------------------------- */

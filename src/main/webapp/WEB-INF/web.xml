@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>ecommerce</display-name>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+	<listener>
+		<listener-class>org.jboss.weld.environment.servlet.Listener</listener-class>
+	</listener>
+
+	<filter>
+		<filter-name>sitemesh</filter-name>
+		<filter-class>com.opensymphony.module.sitemesh.filter.PageFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>sitemesh</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!--menu filter-->
+
+	<filter>
+		<filter-name>MenuController</filter-name>
+		<filter-class>com.ecommerce.controller.web.MenuController</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>MenuController</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	
+	<filter>
+		<filter-name>authorization</filter-name>
+		<filter-class>com.ecommerce.filter.AuthorizationFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>authorization</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<!--<filter>
+		<filter-name>LoginController</filter-name>
+		<filter-class>com.ecommerce.controller.web.LoginController</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>LoginController</filter-name>
+		<url-pattern>/LoginController/*</url-pattern>
+	</filter-mapping>-->
+
+</web-app>
